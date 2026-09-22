@@ -48,10 +48,14 @@ print("New List with zeros at and in between the specified values:", ppg_list)
 
 def print_reverse_bonus(alist):
     """
-    takes a list and reverses the order of the values in 
+    Takes a list and reverses the order of the values in 
     the given list and puts a tilde in between each value
 
-    returns the new reversed list
+    Args:
+    any list to be reversed, in this case it accepts an example list, bonus_list
+
+    Returns: 
+    the new reversed list
 
     (e.g.): [1, 2, 3] becomes [3 ~ 2 ~ 1]
     """
